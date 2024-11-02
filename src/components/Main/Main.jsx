@@ -13,6 +13,22 @@ export default function Main() {
     setSegundoValor(Number(e.target.value));
   };
 
+  const somar = () => {
+    setResultado(primeiroValor + segundoValor);
+  };
+
+  const subtrair = () => {
+    setResultado(primeiroValor - segundoValor);
+  };
+
+  const multiplicar = () => {
+    setResultado(primeiroValor * segundoValor);
+  };
+
+  const dividir = () => {
+    setResultado(primeiroValor / segundoValor);
+  };
+
   return (
     <main>
       <h1>Calculadora Vai na Web</h1>
@@ -26,6 +42,11 @@ export default function Main() {
         placeholder="Segundo digito"
         onChange={capturandoSegundoValor}
       />
+      <button onClick={somar}>+</button> 
+      <button onClick={subtrair}>-</button> 
+      <button onClick={multiplicar}>x</button> 
+      <button onClick={dividir}>%</button> 
+      <p>{resultado}</p>
     </main>
   );
 };
