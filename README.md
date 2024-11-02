@@ -2,7 +2,7 @@
 
 ## Descrição:
 
-Crie uma Calculadora com React e Sass Desenvolva uma Calculadora web simples usando React que seja capaz de realizar operações básicas de matemática e faça uso do Sass.
+Crie uma Calculadora web simples com React e Sass que seja capaz de realizar operações básicas de matemática.
 
 ## Instruções:
 
