@@ -1,3 +1,4 @@
+import "./globalStyle.scss"
 import Main from "./components/Main/Main";
 
 export default function App() {

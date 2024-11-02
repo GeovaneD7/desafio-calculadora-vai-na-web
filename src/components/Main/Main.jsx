@@ -1,3 +1,4 @@
+import "./mainStyle.scss"
 import { useState } from "react";
 
 export default function Main() {
@@ -32,21 +33,27 @@ export default function Main() {
   return (
     <main>
       <h1>Calculadora Vai na Web</h1>
-      <input 
-        type="text" 
-        placeholder="Primeiro digito"
-        onChange={capturandoPrimeiroValor}
-      />
-      <input 
-        type="text" 
-        placeholder="Segundo digito"
-        onChange={capturandoSegundoValor}
-      />
-      <button onClick={somar}>+</button> 
-      <button onClick={subtrair}>-</button> 
-      <button onClick={multiplicar}>x</button> 
-      <button onClick={dividir}>%</button> 
-      <p>{resultado}</p>
-    </main>
+      <section>
+        <div id="entrada">
+          <input
+            type="text"
+            placeholder="Primeiro digito"
+            onChange={capturandoPrimeiroValor}
+          />
+          <input
+            type="text"
+            placeholder="Segundo digito"
+            onChange={capturandoSegundoValor}
+          />
+        </div>
+        <div id="botoes">
+          <button onClick={somar}>+</button>
+          <button onClick={subtrair}>-</button>
+          <button onClick={multiplicar}>x</button>
+          <button onClick={dividir}>%</button>
+        </div>
+        <p id="resultado">{resultado}</p>
+      </section>
+    </main> 
   );
 };
