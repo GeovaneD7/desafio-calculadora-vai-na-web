@@ -21,3 +21,7 @@ Crie uma Calculadora web simples com React e Sass que seja capaz de realizar ope
 - Apaguei os arquivos criados automaticamente pelo Vite.
 - Criei o diretório `/components/Main` e dentro dele os arquivos `Main.jsx` e `mainStyle.scss`.
 - Criado o repositório Git e subido os primeiros arquivos para ele.
+- Editei os arquivos `Main.jsx` para importar o `mainStyle.scss` e a funcionalidade `useState`.
+- Foi adicionado a lógica da calculadora usando o useState para guardar o primeiro e o segundo valor. 
+- Criei a lógica dos botões para realizarem as operações: `+, -, % e *`.
+- Após verificar que estão funcionando no host local através do Vite, comecei a primeira parte da estilização da página no `mainStyle.scss`.
