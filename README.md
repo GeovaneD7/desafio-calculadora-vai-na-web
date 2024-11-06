@@ -25,3 +25,4 @@ Crie uma Calculadora web simples com React e Sass que seja capaz de realizar ope
 - Foi adicionado a lógica da calculadora usando o useState para guardar o primeiro e o segundo valor. 
 - Criei a lógica dos botões para realizarem as operações: `+, -, % e *`.
 - Após verificar que estão funcionando no host local através do Vite, comecei a primeira parte da estilização da página no `mainStyle.scss`.
+- Optei por utilizar uma header simples com o logo e futuramente um link para uma página secundária usando o conceitos de Rotas.
