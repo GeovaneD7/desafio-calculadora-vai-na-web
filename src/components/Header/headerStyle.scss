@@ -1,0 +1,17 @@
+header {
+  height: 10vh;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 5%;
+    margin-left: 1%;
+  }
+
+  a {
+    margin-right: 1%;
+    color: chocolate;
+  }
+}

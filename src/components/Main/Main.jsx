@@ -32,8 +32,8 @@ export default function Main() {
 
   return (
     <main>
-      <h1>Calculadora Vai na Web</h1>
       <section>
+        <h1>Calculadora Vai na Web</h1>
         <div id="entrada">
           <input
             type="text"
