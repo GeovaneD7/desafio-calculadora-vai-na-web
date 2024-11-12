@@ -25,6 +25,9 @@ Crie uma Calculadora web simples com React e Sass que seja capaz de realizar ope
 - Foi adicionado a lógica da calculadora usando o useState para guardar o primeiro e o segundo valor. 
 - Criei a lógica dos botões para realizarem as operações: `+, -, % e *`.
 - Após verificar que estão funcionando no host local através do Vite, comecei a primeira parte da estilização da página no `mainStyle.scss`.
+- Na fonte do projeto foi usada a [Prosto One](https://fonts.google.com/specimen/Prosto+One?categoryFilters=Appearance:%2FTheme%2FTechno;Feeling:%2FExpressive%2FStiff)
 - Criei um plano de fundo com o logo do VnW.
 - Criei as pastas da header em `components/Header` onde pode ser encontrados os arquivos `Header.jsx` e ``
 - Optei por utilizar uma header simples com o logo do projeto e um link para o repositório originial no GitHub.
+- Adicionei um icone para a aba do browser.
+- Fiz algumas correções menores em cores e tamanhos.
