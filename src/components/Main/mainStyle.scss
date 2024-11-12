@@ -13,8 +13,10 @@ main {
   height: 90vh;
 }
 
+$cor-branco: white;
+
 h1 {
-  color: chocolate;
+  color: darkorange;
   background-color: rgb(41, 41, 41);
   font-size: 3rem;
   padding: 10px;
@@ -41,7 +43,7 @@ section {
     background-color: darkorange;
     border-style: intset;
     border-color: darkgoldenrod;
-    color: white;
+    color: $cor-branco;
     font-size: 1.5rem;
     text-align: center;
 
@@ -52,7 +54,7 @@ section {
 
     &::placeholder {
       text-align: center;
-      color: azure;
+      color: $cor-branco;
     }
     &:focus::placeholder {
       opacity: 0;
@@ -65,8 +67,8 @@ section {
     margin: 5%;
 
     background-color: darkslategray;
-    color:azure;
-    font-size: 1rem;
+    color: $cor-branco;
+    font-size: 2rem;
     border-radius: 10px;
     border-style: outset;
     //border-color: darkslategray;
@@ -84,7 +86,7 @@ section {
   @include flexCentered();
 
   background-color: crimson;
-  color: white;
+  color: $cor-branco;
   width: 400px;
   height: 55px;
 
