@@ -36,3 +36,4 @@ Crie uma Calculadora web simples com React e Sass que seja capaz de realizar ope
 - Fixado as casas decimais da divisão.
 - Melhorado o tamanho do link *Sobre* na header.
 - Corrigido as importações das imagens.
+- Melhorado o tamanho da `<h1>`.
