@@ -8,7 +8,7 @@
 main {
   @include flexCentered();
 
-  background-image: url("vnwFundo.png");
+  background-image: url("../../assets/vnwFundo.png");
   background-size: 6%;
   height: 90vh;
 }
@@ -18,7 +18,7 @@ $cor-branco: white;
 h1 {
   color: darkorange;
   background-color: rgb(41, 41, 41);
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 10px;
   border-radius: 15px;
 }

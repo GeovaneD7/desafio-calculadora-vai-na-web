@@ -31,3 +31,8 @@ Crie uma Calculadora web simples com React e Sass que seja capaz de realizar ope
 - Optei por utilizar uma header simples com o logo do projeto e um link para o repositório originial no GitHub.
 - Adicionei um icone para a aba do browser.
 - Fiz algumas correções menores em cores e tamanhos.
+
+### Updates:
+- Fixado as casas decimais da divisão.
+- Melhorado o tamanho do link *Sobre* na header.
+- Corrigido as importações das imagens.

@@ -27,7 +27,8 @@ export default function Main() {
   };
 
   const dividir = () => {
-    setResultado(primeiroValor / segundoValor);
+    const resultadoFormatado = (primeiroValor / segundoValor).toFixed(2);
+    setResultado(resultadoFormatado);
   };
 
   return (
